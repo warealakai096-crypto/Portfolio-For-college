@@ -18,6 +18,7 @@ section {
   background: #ffffff;
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+
 }
 
 /* Links */
@@ -27,4 +28,52 @@ a {
 }
 a:hover {
   text-decoration: underline;
+}
+/* Navigation */
+a{
+  background-color: #007acc;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  }
+.project-list {
+  font-size: 24px;
+  color: #34495e;
+  border-bottom: 2px solid #007acc;
+  padding-bottom: 5px;
+}
+.Progress-log {
+  font-size: 24px;
+  color: #34495e;
+  border-bottom: 2px solid #007acc;
+  padding-bottom: 5px;
+}
+.Future-mission {
+  font-size: 24px;
+  color: #34495e;
+  border-bottom: 2px solid #007acc;
+  padding-bottom: 5px;
+}
+
+/* hover effect for section headings */
+section{
+  transition: all  0.3s ease; /* Smooth transition */
+} 
+section:hover {
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2); /* Enhanced shadow on hover */
+  transform: translateY(-5px); /* Slight lift effect */
+}
+section:hover {
+  border: 2px solid #007acc; /* highlight border */
+  background-color: #f9fcff; /* subtle background tint */
+}
+/* Button Navigator */
+.Button-Navigator {
+  background-color: #007acc;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
 }
